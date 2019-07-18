@@ -6,6 +6,7 @@
 
 .circle {
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
   font-style: italic;
   position: relative;
   border-radius: 100%;
@@ -28,7 +29,7 @@
 
 .slogan {
   /* Traditional Garamond-based serif stack */
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: italic;
   padding-top: 26px;
 }
@@ -41,7 +42,7 @@
   color: #10560A;
   font-size: 25px;
   border-bottom: 1px solid #557E55;
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -51,3 +52,18 @@ header {
 hr {
   clear: both;
 }
+
+h1 {
+  font-family: 'pacificoregular', cursive;
+  font-size: 48px;
+}
+
+.small_pacifico {
+  font-size: 36px;
+}
+
+h2 {
+  font-family: 'Special Elite', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Special+Elite&display=swap');
