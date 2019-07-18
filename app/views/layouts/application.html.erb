@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class= "col-5 slogan">
-        Splurting out unsolicited advice about mountaineering since 2019!
+        Splurting out "expert" unsolicited advice about mountaineering since 2019!
       </div>
       <div class="col-2 links">
         <%= link_to 'Contribute', '#'%>
@@ -30,6 +30,21 @@
       </div>
     </header>
     <br class="clear"/>
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+    <div class = "footer">
+      <div class = "container">
+        <div class= "row">
+          <div class = "col-6">
+            <%= link_to "This isn't enough, I need more \"expert\" advice!", "#", class: 'next-quote' %>
+          </div>
+          <div class = "col-6 footer-blurb">
+            Proudly hacked by <a href="[YOUR_PORTFOLIO_URL]">[Jessica Brady]</a><br />
+            Want to build your own Splurty Web App - <a href="https://online.bootcampspot.com">Learn how to code here</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
