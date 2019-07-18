@@ -20,11 +20,15 @@
   font-size: 10px;
   line-height: 16px;
   cursor: pointer;
-  transform: rotate(11deg);
-  -ms-transform: rotate(11deg);
+  transform: rotate(349deg);
+  -ms-transform: rotate(349deg);
   /* IE 9 */
-  -webkit-transform: rotate(11deg);
+  -webkit-transform: rotate(349deg);
   /* Opera, Chrome, and Safari */
+}
+
+.logo:hover {
+  text-decoration: none;
 }
 
 .slogan {
@@ -42,7 +46,7 @@
 .links a {
   color: #10560A;
   font-size: 25px;
-  border-bottom: 1px solid #557E55;
+  text-decoration: underline;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -63,10 +67,12 @@ h1 {
 
 .small_pacifico {
   font-size: 36px;
+  text-align: center;
 }
 
 h2 {
   font-family: 'Special Elite', cursive;
+  text-align: center;
 }
 
 .footer-blurb {
