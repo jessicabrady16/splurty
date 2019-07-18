@@ -18,16 +18,18 @@
           <br />
           FLATLANDER
         </div>
-        <div class= "col-4 slogan">
-          Splurting out unsolicited advice about mountaineering since 2019!
-        </div>
-        <div class="col-5 links">
-          <%= link_to 'Contribute', '#'%>
-          <%= link_to 'About', '#'%>
-        </div>
-      </header>
-      <hr />
-      <br class="clear"/>
-      <%= yield %>
-    </body>
-  </html>
+      </div>
+      <div class= "col-5 slogan">
+        Splurting out unsolicited advice about mountaineering since 2019!
+      </div>
+      <div class="col-2 links">
+        <%= link_to 'Contribute', '#'%>
+      </div>
+      <div class="col-2 links">
+        <%= link_to 'About', '#'%>
+      </div>
+    </header>
+    <br class="clear"/>
+    <%= yield %>
+  </body>
+</html>
