@@ -36,7 +36,8 @@
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
   padding-top: 26px;
-  text-align: center
+  text-align: center;
+  font-weight: bold;
 }
 
 .links {
@@ -65,9 +66,15 @@ h1 {
   font-size: 48px;
 }
 
+.about {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
 .small_pacifico {
   font-size: 36px;
   text-align: center;
+  font-family: 'pacificoregular', cursive;
 }
 
 h2 {
