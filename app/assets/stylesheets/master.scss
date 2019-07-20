@@ -12,13 +12,13 @@
   border-radius: 100%;
   background: #f84342;
   border: 1px solid #F7F7F7;
-  width: 80px;
-  height: 80px;
-  margin: 10px 10px;
+  width: 100px;
+  height: 100px;
+  margin: 12px 12px;
   text-align: center;
   color: #FFF;
-  font-size: 10px;
-  line-height: 16px;
+  font-size: 12px;
+  line-height: 19.2px;
   cursor: pointer;
   transform: rotate(349deg);
   -ms-transform: rotate(349deg);
@@ -27,8 +27,27 @@
   /* Opera, Chrome, and Safari */
 }
 
+
+
+.cool_background {
+  background: image-url('rmnp_sunset.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .logo:hover {
   text-decoration: none;
+}
+
+.modal {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.modal-title {
+  font-family: 'pacificoregular', cursive;
 }
 
 .slogan {
@@ -38,17 +57,25 @@
   padding-top: 26px;
   text-align: center;
   font-weight: bold;
+  font-size: 26px;
 }
 
 .links {
   padding-top: 26px;
 }
 
+.footer {
+  border-top: 4.5px solid #293a2e;
+  padding-top: 5px;
+
+}
+
 .links a {
-  color: #10560A;
+  color: #007ACC;
   font-size: 25px;
   text-decoration: underline;
   font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -80,6 +107,16 @@ h1 {
 h2 {
   font-family: 'Special Elite', cursive;
   text-align: center;
+  font-weight: bold;
+}
+
+
+
+.splurty_number {
+  color: #007ACC;
+  text-decoration: underline;
+  text-align: left;
+  font-size: 25px;
 }
 
 .footer-blurb {
@@ -87,12 +124,31 @@ h2 {
   font-style: italic;
   text-align: right;
   font-size: 10px;
+  color: #FED2AF;
+  background-color: #00000000;
+}
+
+.transp_bkgrd {
+  background-color: #C2C3BE88
 }
 
 .next-quote {
-  color: #f84342;
+  color: #FED2AF;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  text-decoration: underline;
 }
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+::selection {
+  background-color: #A5A19E;
+}
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Special+Elite&display=swap');
